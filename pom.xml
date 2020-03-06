@@ -50,4 +50,10 @@
         <connection>scm:git:git@github.com:bitoiu/mvn-site-github-pages.git</connection>
         <developerConnection>scm:git:git@github.com:bitoiu/mvn-site-github-pages.git</developerConnection>
     </scm>
+   <distributionManagement>
+    <site>
+            <id>MSFSite</id>
+            <url>http://3.87.168.21:8181/nexus-latest/content/sites/MSFSite</url>
+    </site>
+  </distributionManagement>
 </project>
